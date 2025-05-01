@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hatim Oudghiri | Portfolio</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <nav>
+            <div>
+                <div id="nav">
+                    <a href="#about" class="nav-link" data-key="nav-about">About</a>
+                    <a href="#skills" class="nav-link" data-key="nav-skills">Skills</a>
+                    <a href="#projects" class="nav-link" data-key="nav-projects">Projects</a>
+                    <a href="#contact" class="nav-link" data-key="nav-contact">Contact</a>
+                </div>
+                <div>
+                    <button id="change-language">FR</button>
+                    
+                </div>
+            </div>
+        </nav>
+        <br><br><br><br>
+        
+        <p data-key="intro-text" id="intro">Hi, I'm Hatim, an aspiring Software Engineer with a strong foundation in web 
+            development (HTML, CSS, JavaScript) and programming (Python, Java). I'm passionate about 
+            building clean, responsive code and turning ideas into real projects. Dedicated to 
+            constantly improving my skills, I approach every project with careful planning, attention 
+            to detail, and a drive to create professional, user-friendly experiences.
+        </p>
+        
+
+        <section id="about" class="section-card">
+            <h1 data-key="about-title">About Me</h1>
+            <p data-key="about-text">I am an aspiring Software Engineer passionate about building clean, efficient, and impactful
+                applications. I enjoy turning ideas into real-world projects and continuously improving my 
+                skills through hands-on coding and learning.
+                <br><br>
+                I currently work mainly with HTML5, CSS3, and JavaScript for web development, as well as Python 
+                and Java for broader software programming. I'm focused on mastering strong programming fundamentals 
+                to create professional, reliable software solutions.
+                <br><br>
+                My goal is to continue growing as a versatile developer, taking on new challenges across web and 
+                software development, and contributing to real-world projects in collaborative, innovative environments.
+                <br><br>
+                Outside of coding, I enjoy team sports - especially soccer and basketball - and I love exploring 
+                new technologies.
+            </p>
+        </section>
+        <hr>
+        <section id="skills" class="section-card">
+            <h1 data-key="skills-title">My Skills</h1>
+            <h2 data-key="skills-web-title">Web Development</h2>
+            <ul data-key="skills-web">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+            <h2 data-key="skills-programming-title">Programming Languages</h2>
+            <ul data-key="skills-programming">
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+            <h2 data-key="skills-tools-title">Tools & Technologies</h2>
+            <ul data-key="skills-tools">
+                <li>Git (basic version control)</li>
+                <li>Microsoft Word, Excel, PowerPoint</li>
+                <li>Responsive Design Principles</li>
+            </ul>
+            <h2 data-key="skills-other-title">Other Skills</h2>
+            <ul data-key="skills-other">
+                <li>Problem Solving</li>
+                <li>Attention to Detail</li>
+                <li>Continuous Learning Mindset</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="projects" class="section-card">
+            <h1 data-key="project1-title">Project 1: Portfolio Website</h2>
+            <ul data-key="project1">
+                <li>Description: A personal portfolio website built with HTML5, CSS3, and JavaScript.</li>
+                <li>Main Features: Responsive layout, smooth navigation, clean UI design, organized sections 
+                    (About, Skills, Projects, Contact).
+                </li>
+                <li>Skills Used: HTML, CSS, JavaScript, Responsive Design principles.</li>
+                <li>Purpose: To showcase my skills, introduce myself to potential employers, and build my first 
+                    independant project.
+                </li>
+            </ul>
+            <h1 data-key="project2-title">Project 2: Academic Website Development</h2>
+            <ul>
+                <li data-key="project2-description">Description: Contributed to the development of a website presenting a product as part of an 
+                    academic project.
+                </li>
+                <li data-key="project2-features">Main Features:
+                    <ul>
+                        <li>Coded the homepage and features page.</li>
+                        <li>Integrated a product summary and navigation buttons linking different sections.</li>
+                        <li>Developed an interactive animation: a JavaScript-based emoji that changes its expression 
+                        every second from a predefined list.
+                        </li>
+                    </ul>
+                </li>
+                <li data-key="project2-skills">Skills Used: HTML5, CSS3, JavaScript.</li>
+                <li data-key="project2-purpose">Purpose: To gain practical experience in building interactive web features and working within 
+                    project specifications in a team.
+                </li>
+                <li>
+                    <span data-key="project2-github.label">GitHub Repository:</span>
+                    <a data-key="project2-github.text" href="https://github.com/yxsmine01/StartUpProjectMoody" target="_blank">[Link to project]</a>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section id="contact" class="section-card">
+            <h1 data-key="contact-title">Contact Me</h1>
+            <p data-key="contact-intro">Feel free to contact me if you have an opportunity, a project idea, or just want to connect!</p>
+            <h2 data-key="contact-details-title">Contact Details</h2>
+            <ul>
+                <li>
+                    <span id="email" data-key="contact-details.email">Email Address: oudhatim07@gmail.com</span>
+                </li>
+                <li>
+                    <span id="phone" data-key="contact-details.phone">Phone Number: +1 (819)-930-9409</span>
+                </li>
+                <li>
+                    <span data-key="linkedin-profile.label">LinkedIn Profile:</span>
+                    <a href="https://www.linkedin.com/in/hatim-oudghiri-558420285/" target="_blank" data-key="linkedin-profile.text">LinkedIn</a>
+                </li>
+                <li>
+                    <span data-key="github-profile.label">GitHub Profile:</span>
+                    <a href="https://github.com/hat077" target="_blank" data-key="github-profile.text">GitHub</a>
+                </li>
+            </ul>
+        </section>
+        
+        <script src="scripts/script.js"></script>
+        <script>
+            const cards = document.querySelectorAll('.section-card');
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) entry.target.classList.add('visible');
+                });
+            });
+
+            cards.forEach(card => observer.observe(card));
+        </script>
+    </body>
+</html>
