@@ -22,18 +22,34 @@ const translations = {
         
         "skills-other-title": "Other Skills",
         "skills-other": ["Problem Solving", "Attention to Detail", "Continuous Learning Mindset"],
+
+        "project1-title": "Project 1: Student Task Manager",
+        "project1-description": "Description: A Django web app that lets students manage tasks by category, with countdowns and progress stats.",
+        "project1-features": {
+            title: "Main features:",
+            items: [
+                "Organizes tasks by category (homework, exams, etc.)",
+                "Tracks deadlines with countdowns",
+                "Displays task progress and stats on a dashboard",
+            ]
+        },
+        "project1-skills": "Skills Used: Python, Django, SQLite, HTML, and CSS.",
+        "project1-purpose": "Purpose: To help students stay organized, manage their academic tasks efficiently, and reduce stress by providing a clear overview of their assignments and deadlines.",
+        "project1-github": {
+            label: "GitHub Repository:",
+            text: "[Link to project]",
+            url: "https://github.com/hat077/StudentTaskManager"
+        },
         
-        "project1-title": "Project 1: Portfolio Website",
-        "project1": [
-            "Description: A personal portfolio website built with HTML5, CSS3, and JavaScript.",
-            "Main Features: Responsive layout, smooth navigation, clean UI design, organized sections (About, Skills, Projects, Contact).",
-            "Skills Used: HTML, CSS, JavaScript, Responsive Design principles.",
-            "Purpose: To showcase my skills, introduce myself to potential employers, and build my first independant project."
-        ],
+        "project2-title": "Project 2: Portfolio Website",
+        "project2-description": "Description: A personal portfolio website built with HTML5, CSS3, and JavaScript.",
+        "project2-features": "Main Features: Responsive layout, smooth navigation, clean UI design, organized sections (About, Skills, Projects, Contact).",
+        "project2-skills": "Skills Used: HTML, CSS, JavaScript, Responsive Design principles.",
+        "project2-purpose": "Purpose: To showcase my skills, introduce myself to potential employers, and build my first independant project.",
         
-        "project2-title": "Project 2: Academic Website Development",
-        "project2-description": "Description: Contributed to the development of a website presenting a product as part of an academic project.",
-        "project2-features": {
+        "project3-title": "Project 3: Academic Website Development",
+        "project3-description": "Description: Contributed to the development of a website presenting a product as part of an academic project.",
+        "project3-features": {
             title: "Main Features:",
             items: [
                 "Coded the homepage and features page.",
@@ -41,9 +57,9 @@ const translations = {
                 "Developed an interactive animation: a JavaScript-based emoji that changes its expression every second from a predefined list.",
             ]
         },
-        "project2-skills": "Skills Used: HTML5, CSS3, JavaScript.",
-        "project2-purpose": "Purpose: To gain practical experience in building interactive web features and working within project specifications in a team.",
-        "project2-github": {
+        "project3-skills": "Skills Used: HTML5, CSS3, JavaScript.",
+        "project3-purpose": "Purpose: To gain practical experience in building interactive web features and working within project specifications in a team.",
+        "project3-github": {
             label: "GitHub Repository:",
             text: "[Link to project]",
             url: "https://github.com/yxsmine01/StartUpProjectMoody"
@@ -91,17 +107,33 @@ const translations = {
         "skills-other-title": "Autres Compétences",
         "skills-other": ["Résolution de problèmes", "Souci du détail", "Esprit d'apprentissage continu"],
 
-        "project1-title": "Projet 1 : Site Portfolio",
-        "project1": [
-            "Description : Un site portfolio personnel construit avec HTML5, CSS3 et JavaScript.",
-            "Fonctionnalités principales : Mise en page responsive, navigation fluide, design UI épuré, sections organisées (À propos, Compétences, Projets, Contact).",
-            "Compétences utilisées : HTML, CSS, JavaScript, principes de design responsive.",
-            "Objectif : Mettre en valeur mes compétences, me présenter aux employeurs potentiels et réaliser mon premier projet indépendant."
-        ],
+        "project1-title": "Projet 1 : Gestionnaire de Tâches Étudiant",
+        "project1-description": "Description: Une application web Django qui permet aux étudiants de gérer leurs tâches par catégorie, avec des comptes à rebours et des statistiques de progression.",
+        "project1-features": {
+            title: "Fonctionnalités principales :",
+            items: [
+                "Organise les tâches par catégorie (devoirs, examens, etc.)",
+                "Suivi des délais avec des comptes à rebours",
+                "Affiche les progrès des tâches et des statistiques sur un tableau de bord",
+            ]
+        },
+        "project1-skills": "Compétences utilisées : Python, Django, SQLite, HTML, et CSS.",
+        "project1-purpose": "Objectif : Aider les étudiants à rester organisés, gérer efficacement leurs tâches académiques et réduire le stress en fournissant une vue d'ensemble claire de leurs devoirs et délais.",
+        "project1-github": {
+            label: "Dépôt GitHub :",
+            text: "[Lien vers le projet]",
+            url: "https://github.com/hat077/StudentTaskManager"
+        },
 
-        "project2-title": "Projet 2 : Développement de Site Académique",
-        "project2-description": "Description : Contribution au développement d'un site web présentant un produit dans le cadre d’un projet académique.",
-        "project2-features": {
+        "project2-title": "Projet 2 : Site Portfolio",
+        "project2-description": "Description : Un site portfolio personnel construit avec HTML5, CSS3 et JavaScript.",
+        "project2-features": "Fonctionnalités principales : Mise en page responsive, navigation fluide, design UI épuré, sections organisées (À propos, Compétences, Projets, Contact).",
+        "project2-skills": "Compétences utilisées : HTML, CSS, JavaScript, principes de design responsive.",
+        "project2-purpose": "Objectif : Mettre en valeur mes compétences, me présenter aux employeurs potentiels et réaliser mon premier projet indépendant.",
+
+        "project3-title": "Projet 3 : Développement de Site Académique",
+        "project3-description": "Description : Contribution au développement d'un site web présentant un produit dans le cadre d’un projet académique.",
+        "project3-features": {
             title: "Fonctionnalités principales :",
             items: [
                 "Codage de la page d'accueil et de la page des fonctionnalités.",
@@ -109,9 +141,9 @@ const translations = {
                 "Développement d'une animation interactive : un émoji basé en JavaScript qui change d'expression chaque seconde à partir d'une liste prédéfinie."
             ]
         },
-        "project2-skills": "Compétences utilisées : HTML5, CSS3, JavaScript.",
-        "project2-purpose": "Objectif : Acquérir de l'expérience pratique dans la création de fonctionnalités interactives et le travail en équipe selon un cahier des charges.",
-        "project2-github": {
+        "project3-skills": "Compétences utilisées : HTML5, CSS3, JavaScript.",
+        "project3-purpose": "Objectif : Acquérir de l'expérience pratique dans la création de fonctionnalités interactives et le travail en équipe selon un cahier des charges.",
+        "project3-github": {
             label: "Dépôt GitHub :",
             text: "[Lien vers le projet]",
             url: "https://github.com/yxsmine01/StartUpProjectMoody"
@@ -146,13 +178,11 @@ function setLanguage(lang) {
 
         if (!translation) return;
 
-        // If translation is a string
         if (typeof translation === 'string') {
             item.textContent = translation;
             return;
         }
 
-        // If translation is an object with label + text + url (like GitHub repo)
         if (translation.label && translation.text && translation.url) {
             item.textContent = translation.label;
 
@@ -164,18 +194,48 @@ function setLanguage(lang) {
             return;
         }
 
-        // If element itself is a link (LinkedIn/GitHub profile)
         if (item.tagName === 'A' && translation.text && translation.url) {
             item.textContent = translation.text;
             item.href = translation.url;
             return;
         }
+
+        if (translation.title && Array.isArray(translation.items)) {
+            item.textContent = translation.title;
+
+            const next = item.nextElementSibling;
+            if (next && next.tagName === 'UL') next.remove();
+
+            const ul = document.createElement('ul');
+            translation.items.forEach(text => {
+                const li = document.createElement('li');
+                li.textContent = text;
+                ul.appendChild(li);
+            });
+
+            item.parentNode.insertBefore(ul, item.nextSibling);
+            return;
+        }
+
+        if (Array.isArray(translation)) {
+            item.textContent = "";
+
+            const next = item.nextElementSibling;
+            if (next && next.tagName === 'UL') next.remove();
+
+            const ul = document.createElement('ul');
+            translation.forEach(text => {
+                const li = document.createElement('li');
+                li.textContent = text;
+                ul.appendChild(li);
+            });
+
+            item.parentNode.insertBefore(ul, item.nextSibling);
+            return;
+        }
     });
 }
 
-
-
-// Event listener
 document.getElementById('change-language').addEventListener('click', function () {
     language = (language === 'FR') ? 'EN' : 'FR';
     document.getElementById('change-language').textContent = (language === 'EN') ? 'FR' : 'EN';
